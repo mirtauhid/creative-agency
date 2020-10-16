@@ -1,0 +1,188 @@
+/* COMMON STYLES */
+body{
+    font-family: "Poppins", sans-serif;
+    color: "#2D2D2D"
+}
+.logo{
+    height: 47px;
+    width: 150px;
+}
+.blackButton{
+    height: 45px;
+    width: 120px;
+}
+
+/* NAVBAR STYLES */
+.nav a{
+    color: #474747;
+    font-weight: 500;
+}
+.nav a:hover{
+    color: #474747;
+}
+.nav a:hover:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 3px solid #7AB259;
+}
+
+/* Header Container */
+.header-container{
+    position: relative;
+    padding-bottom: 3.5rem;
+    overflow: hidden;
+  }
+  .header-container:before {
+      background-color: #FBD062;
+      transform: skewy(-4deg);
+      transform-origin: bottom left;
+      content: ' ';
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+    }
+
+/* Header Main */
+
+.headerImage {
+    height: 410px;
+    width: 610px;
+    padding-bottom: 25px;
+}
+
+/* Clients Container */
+
+/* Services Container */
+.services-container h3{
+    font-weight: 700;
+}
+.box{
+    padding: 30px;
+    height: 280px;
+    width: 320px;
+    background: #FFFFFF;
+    
+}
+.box:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.box img {
+    height: 74px;
+    width: 74px;
+    margin-bottom: 20px;
+}
+.box h5{
+    font-weight: 700;
+}
+
+/* Our Works Container */
+.our-works-container{
+    height: 550px;
+    width: 100%;
+    background: #111430;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.our-works-container h3{
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    padding-top: 10px; 
+}
+
+/* Carousel */
+.slide-container img{
+    height: 300px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+/* Feedback Container */
+.card{
+    
+    height: 200px;
+    width: 320px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.card img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+.feedback-container h3{
+    font-weight: 700;
+}
+
+/* Footer Section */
+.footer-section{
+    background: #FBD062;
+    margin-top: 150px;
+    padding-bottom: 5px;
+}
+/* Login */
+.login-container{
+    padding-top: 70px;
+}
+.login-box{
+    height: 300px;
+    width: 420px;
+    padding: 50px;
+    border: 1px solid rgb(179, 177, 177);
+    margin: 0 auto; 
+    border-radius: 3px;
+    margin-top: 40px;
+}
+.loginBtn{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #dfdddd !important;
+    border-radius: 40px !important;
+    padding: 10px;
+    font-weight: 600 !important;
+}
+.gIcon{
+    float: left;
+    margin-top: -4px;
+    margin-left: -11px;
+    height: 40px;
+}
+
+/* Admin */
+.main-logo{
+    margin-left: 50px;
+}
+.dashboard-top{
+    height: 70px;
+    padding-top: 20px;
+}
+.main-container{
+    background: #F4F7FC;
+    height: 505px;
+    min-height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.list-container{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.none-style{
+    border: none !important;
+    color: black !important;
+    font-weight: 500;
+}
+.none-style:hover{
+    text-decoration: none;
+    color: #009444 !important;
+}
+

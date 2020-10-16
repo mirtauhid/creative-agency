@@ -1,0 +1,16 @@
+.carousel-section{
+    height: 500px;
+    width: 100%;
+    /* background: #111430; */
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.slick-dots li{
+    background: #242A65;
+    border-radius: 50%;
+}
+button::before{
+    background: #FBD062;
+    border-radius: 50%;
+}
